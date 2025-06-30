@@ -1,0 +1,15 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="lock_screen_shortcut"
+        android:enabled="true"
+        android:icon="@drawable/lock_icon"
+        android:shortcutShortLabel="@string/lock_screen"
+        android:shortcutLongLabel="@string/shortcut_long_label">
+        <intent
+            android:action="com.example.screenlockwithwidget.LOCK_SCREEN_ACTION"
+            android:targetPackage="com.example.screenlockwithwidget"
+            android:targetClass="com.example.screenlockwithwidget.LockScreenReceiver" />
+    </shortcut>
+</shortcuts>
+
+
